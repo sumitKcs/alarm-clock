@@ -143,6 +143,9 @@ body {
     height: 45%;
     background-color: red;
     --rotation: 230deg;
+    position: absolute;
+    animation: topToBottom .5s 1;
+    animation-timing-function: ease-in;
 }
 
 .clock .hand.minute {
@@ -150,6 +153,9 @@ body {
     height: 40%;
     background-color: black;
     --rotation: 60deg;
+    position: absolute;
+    animation: leftToRight .5s 1;
+    animation-timing-function: ease-in;
 }
 
 .clock .hand.hour {
@@ -157,9 +163,13 @@ body {
     height: 35%;
     background-color: black;
     --rotation: 90deg;
+    position: absolute;
+    animation: bottomToTop .5s 1;
+    animation-timing-function: ease-in;
 }
 
 .digital-clock-container {
+    padding: 5px;
     width: 15rem;
     height: 4rem;
     display: grid;
@@ -179,6 +189,99 @@ body {
     align-items: center;
     font-size: 1rem;
     font-weight: bold;
+}
+
+.alarm-container {
+    width: 15rem;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 5px; */
+    color: #d9d9d9;
+    font-weight: bold;
+}
+
+.select-container {
+    width: 15rem;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.select-container select {
+    width: 4.5rem;
+    height: 2rem;
+    background-color: #800ff0;
+    outline: none;
+    border: none;
+    color: #d9d9d9;
+    font-weight: bold;
+
+}
+
+
+/* .alarm-container .hour {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.alarm-container .minute {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.alarm-container .meridiem {
+    grid-row: 1/2;
+    grid-column: 3/4;
+} */
+
+.alarm-container .button {
+    width: 96%;
+    height: 2rem;
+    cursor: pointer;
+    /* grid-row: 2/3;
+    grid-column: 1/-1; */
+    /* text-align: center; */
+    /* margin-top: 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* animations */
+@keyframes topToBottom {
+    from {
+        top: -15rem;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+@keyframes leftToRight {
+    from {
+        left: -15rem;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+@keyframes bottomToTop {
+    from {
+        bottom: -15rem;
+    }
+
+    to {
+        bottom: 0;
+    }
 }
 
 

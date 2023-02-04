@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="assets/css/style.css" rel="stylesheet">
-    <script defer src="assets/js/app.js"></script>
+    <script type="module" src="assets/js/app.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
-
+    <audio id="theme" src="assets/audio/theme.mp3"></audio>
     <title>Clock</title>
 </head>
 
@@ -36,6 +36,29 @@
         <div class="time hour" data-hour-time>hr</div>:
         <div class="time minute" data-minute-time>mins</div>:
         <div class="time second" data-second-time>secs</div>
+        <div class="time second" data-meridiem-time>AM</div>
+    </div>
+    <div class="alarm-container">
+        <div class="select-container">
+            <div class="alarm hour">
+                <select name="alarm-hour" id="alarm-hour">
+                    <option value="" selected hidden>Hrs</option>
+                </select>
+            </div>
+            <div class="alarm minute">
+                <select name="alarm-minute" id="alarm-minute">
+                    <option value="" selected hidden>Min</option>
+
+                </select>
+            </div>
+            <div class="alarm meridiem">
+                <select name="alarm-meridiem" id="alarm-meridiem">
+                    <option value="" selected hidden>AM/PM</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="alarm button" id="alarm-button">Set Alarm</div>
     </div>
 
 </body>
