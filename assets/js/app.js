@@ -20,6 +20,7 @@ const modal = document.getElementById("modal");
 const modalTime = document.getElementById("modal-time");
 const modalStop = document.getElementById("modal-stop-button");
 const modalKeep = document.getElementById("modal-keep-button");
+const digitalClock = document.getElementById("digital-clock");
 
 //variable
 let meridiem;
@@ -131,6 +132,7 @@ cancelAlarmButton.addEventListener("click", () => {
   selectContainer.style.display = "flex";
   alarmButton.style.display = "";
   alarmContainer.style.display = "none";
+  digitalClock.classList.remove("animate-up");
   //remove localStorage data
   deleteLocalStorage("alarm");
   theme.pause();

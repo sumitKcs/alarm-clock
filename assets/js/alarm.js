@@ -1,4 +1,5 @@
 const alarmButton = document.getElementById("alarm-button");
+const digitalClock = document.getElementById("digital-clock");
 
 export default function setAlarm(
   hourVal,
@@ -19,10 +20,13 @@ export default function setAlarm(
 
     //ring when time matches
     if (hourVal == currentHour && minuteVal == currentMinute) {
+      //clearen interval time
       clearInterval(interval);
       //play sound
       console.log("playing...");
       theme.play();
+      //add shaking animation to digital clock
+      digitalClock.classList.add("animate-up");
       //remove locastorage data
       localStorage.removeItem("alarm");
     }
