@@ -54,6 +54,15 @@ modalKeep.addEventListener("click", () => {
     }, 900);
     flag = 0;
     console.log(alarmData.hour, alarmData.minute, alarmData.meridiem, 1);
+    //apply onclick button effect
+    alarmButton.style.display = "none";
+    cancelAlarmButton.style.display = "flex";
+    selectContainer.style.display = "none";
+    alarmContainer.style.display = "flex";
+    const alarmContainerChild = alarmContainer.children;
+    alarmContainerChild[1].innerHTML = alarmData.hour;
+    alarmContainerChild[2].innerHTML = alarmData.minute;
+    alarmContainerChild[3].innerHTML = alarmData.meridiem;
   }
 });
 // alarm code
@@ -103,8 +112,6 @@ alarmButton.addEventListener("click", () => {
     //apply onclick button effect
     alarmButton.style.display = "none";
     cancelAlarmButton.style.display = "flex";
-    cancelAlarmButton.style.justifyContent = "center";
-    cancelAlarmButton.style.alignItems = "center";
     selectContainer.style.display = "none";
     alarmContainer.style.display = "flex";
     const alarmContainerChild = alarmContainer.children;

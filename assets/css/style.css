@@ -301,6 +301,8 @@ body {
 }
 
 .cancel-button {
+    justify-content: center;
+    align-items: center;
     width: 96%;
     height: 2rem;
     cursor: pointer;
