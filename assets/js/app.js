@@ -17,6 +17,7 @@ const cancelAlarmButton = document.getElementById("alarm-cancel-button");
 const selectContainer = document.getElementById("select-container");
 const alarmContainer = document.getElementById("alarm-container");
 const modal = document.getElementById("modal");
+const modalTime = document.getElementById("modal-time");
 const modalStop = document.getElementById("modal-stop-button");
 const modalKeep = document.getElementById("modal-keep-button");
 
@@ -30,6 +31,8 @@ window.onload = () => {
   const alarmData = JSON.parse(localStorage.getItem("alarm"));
   console.log(alarmData);
   if (alarmData) {
+    modalTime.innerText =
+      alarmData.hour + " : " + alarmData.minute + " " + alarmData.meridiem;
     modal.style.display = "flex";
   }
 };
