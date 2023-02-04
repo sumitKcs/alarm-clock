@@ -2,39 +2,65 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    min-height: 100vh;
-    min-width: 100vw;
+    height: 95vh;
+    min-width: 95vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #6E0DD0;
+    color: #d9d9d9;
+}
+
+.clock-container {
+    width: 24rem;
+    height: 24rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 15px 15px 30px #260548,
+        -15px -15px 30px #800ff0;
+
 }
 
 .clock {
     width: 20rem;
     height: 20rem;
-    border: 2px solid black;
     border-radius: 50%;
     position: relative;
+    box-shadow: inset 15px 15px 30px #260548,
+        inset -15px -15px 30px #800ff0;
+
+
 }
 
 .clock .number {
     --rotation: 0;
+    --skewX: 0;
     position: absolute;
     width: 100%;
     height: 100%;
     text-align: center;
-    transform: rotate(var(--rotation));
+    transform: rotate(var(--rotation)) skewX(var(--skewX));
     font-size: 1.5rem;
     font-weight: bold;
+    padding: .5rem;
 }
 
 .clock .number1 {
     --rotation: 30deg;
+}
 
+.clock .number1.text {
+    --skewX: -1;
 }
 
 .clock .number2 {
@@ -125,4 +151,24 @@ body {
     height: 35%;
     background-color: black;
     --rotation: 90deg;
+}
+
+/* media queries */
+@media screen and (width < 375px) {
+    .clock-container {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    .clock {
+        width: 12.5rem;
+        height: 12.5rem;
+
+    }
+
+    .clock .number {
+        padding: .5rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
 }
