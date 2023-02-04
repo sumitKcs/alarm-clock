@@ -7,14 +7,19 @@
 }
 
 body {
-    height: 95vh;
-    min-width: 95vw;
+    height: 97vh;
+    width: 97vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #6E0DD0;
     color: #d9d9d9;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+
 }
 
 .clock-container {
@@ -154,7 +159,7 @@ body {
 }
 
 /* media queries */
-@media screen and (width < 375px) {
+@media screen and (width < 404px) {
     .clock-container {
         width: 16rem;
         height: 16rem;
