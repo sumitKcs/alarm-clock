@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favivon.png" type="image/x-icon">
     <script type="module" src="assets/js/app.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
     <audio id="theme" src="assets/audio/theme.mp3"></audio>
@@ -39,7 +40,7 @@
         <div class="time second" data-meridiem-time>AM</div>
     </div>
     <div class="alarm-container">
-        <div class="select-container">
+        <div class="select-container" id="select-container">
             <div class="alarm hour">
                 <select name="alarm-hour" id="alarm-hour">
                     <option value="" selected hidden>Hrs</option>
@@ -57,10 +58,29 @@
                 </select>
             </div>
         </div>
+        <div class="select-container alarm-screen" id="alarm-container">
+            <div id="alarm-text">Alarm at</div>
+            <div id="alarm-hour">04</div>:
+            <div id="alarm-minute">25</div>
+            <div id="alarm-meridiem">PM</div>
+        </div>
 
-        <div class="alarm button" id="alarm-button">Set Alarm</div>
+        <div class="button set-button" id="alarm-button">Set Alarm</div>
+        <div class="button cancel-button" id="alarm-cancel-button">Cancel Alarm</div>
+
     </div>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-message"><span id="modal-text"> Alarm available for</span><span id="" modal-time>
+                    02:35 PM</span> </div>
+            <div class="button-container">
+                <div class="modal-button modal-stop" id="modal-stop-button">stop</div>
+                <div class="modal-button modal-keep" id="modal-keep-button">keep</div>
+            </div>
 
+        </div>
+
+    </div>
 </body>
 
 </html>
