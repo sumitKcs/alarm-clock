@@ -22,10 +22,14 @@ At bottom screen, there is a section of dopdown selectors from which a specific 
 ## Preview of the alarm clock
 
 - on desktop
-  [![Screenshot-from-2023-02-05-11-07-02.png](https://i.postimg.cc/Y02d6w7q/Screenshot-from-2023-02-05-11-07-02.png)](https://postimg.cc/ZBgPm201)
-
+  <div>
+    <img src="https://i.postimg.cc/Y02d6w7q/Screenshot-from-2023-02-05-11-07-02.png" alt="drawing" width="1080"/> 
+  </div>
 - on mobile
-  [![Screenshot-from-2023-02-05-11-09-14.png](https://i.postimg.cc/yYtTdRDN/Screenshot-from-2023-02-05-11-09-14.png)](https://postimg.cc/7f1ztfMv)
+  <div>
+    <img src="https://i.postimg.cc/yYtTdRDN/Screenshot-from-2023-02-05-11-09-14.png" alt="drawing" width="350"/> 
+  </div>
+
 
   ## Deployed App Link
 
