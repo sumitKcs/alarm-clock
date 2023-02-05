@@ -30,6 +30,7 @@ At bottom screen, there is a section of dopdown selectors from which a specific 
     <img src="https://i.postimg.cc/yYtTdRDN/Screenshot-from-2023-02-05-11-09-14.png" alt="drawing" width="350"/> 
   </div>
 
+
   ## Deployed App Link
 
   - <a href="https://sumitkcs.github.io/analog-clock/" target="_top"> Github Pages </a>
