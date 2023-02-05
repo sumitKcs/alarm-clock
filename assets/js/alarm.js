@@ -29,9 +29,8 @@ export default function setAlarm(
       digitalClock.classList.add("animate-up");
       //remove locastorage data
       localStorage.removeItem("alarm");
+      return;
     }
-  } else {
-    clearInterval(interval);
-    console.log("alarm off");
   }
+  return;
 }
