@@ -1,5 +1,6 @@
 import setAlarm from "./alarm.js";
 import { setLocalStorage, deleteLocalStorage } from "./localstorage.js";
+import consoleText from "./console.js";
 
 //setClock function will keep executing at every 1ms to move the analog clock hands
 setInterval(setClock, 100);
@@ -210,3 +211,23 @@ function setAlarmButtonEffect(hour, minute, meridiem) {
   alarmContainerChild[2].innerHTML = minute;
   alarmContainerChild[3].innerHTML = meridiem;
 }
+
+function swRegistration() {
+  const heart = [
+    "font-size: 20px",
+    "padding: 12px",
+    "margin: 4px 0 4px 4px",
+    "color: rgba(238,58,136,1)",
+  ].join(";");
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("serviceWorker.js")
+      .then((registration) => {
+        console.log("%c❤️", heart);
+      })
+      .catch((err) => console.log(err));
+  }
+}
+
+swRegistration();
+consoleText();

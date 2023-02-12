@@ -1,7 +1,3 @@
-## Alarm CLock
-
-An alarm clock is a clock that is designed to alert an individual or group of individuals at a specified time. The primary function of these clocks is to awaken people from their night's sleep or short naps; they are sometimes used for other reminders as well. It uses a sound to notify when a specified time matches.
-
 <p id="header"><p>
 
 <br>
@@ -14,9 +10,7 @@ An alarm clock is a clock that is designed to alert an individual or group of in
 
 <a href="https://sumitkcs.github.io/alarm-clock/">![Heart Animation](https://sumitkcs.github.io/alarm-clock/assets/img/preview.png)</a>
 
-Heart animation made using Anime.js.
-
-- <a href="https://animejs.com/">Anime.js</a> is a lightweight JavaScript animation library with a simple, yet powerful API.
+An alarm clock built using HTML, CSS and JavaScript. It uses localstorage to store the alarm timing.
 
 #
 
@@ -62,7 +56,7 @@ open index.html
 
 <a href="https://sumitkcs.github.io/alarm-clock/">![Live Site](https://sumitkcs.github.io/alarm-clock/assets/img/preview.png)</a>
 
-The **[Heart Animation](https://sumitkcs.github.io/alarm-clock/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+The **[Alarm Clock](https://sumitkcs.github.io/alarm-clock/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
 <br>
 
@@ -72,17 +66,9 @@ The **[Heart Animation](https://sumitkcs.github.io/alarm-clock/)** is a [progres
 
 <a href=#resources>![Resources](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314247/Readme%20Headers/inter-resources_ncevbw.png)</a>
 
-- #### [Google Fonts](https://fonts.google.com/)
+- #### [Fully functioning Analog Clock](https://www.youtube.com/watch?v=9tC7IBAN9h4&t=1523s) by [Cyber Warriors](https://www.youtube.com/@CyberWarriors)
 
-- #### [Anime.js on Github](https://github.com/juliangarnier/anime)
-
-- #### [Anime.js](https://animejs.com/) by [Julian Garnier](https://github.com/juliangarnier)
-
-- #### [Animated Blocks Tutorial](https://youtu.be/XMhHEVznWEY) by [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
-
-- #### [Animated Hearts Tutorial](https://youtu.be/MBnS34iENrw) by [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
-
-- #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+- #### [Build A Clock With JavaScript](https://www.youtube.com/watch?v=Ki0XXrlKlHY) by [Web Dev Simplified](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
 
 <br>
 
