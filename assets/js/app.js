@@ -12,9 +12,9 @@ const hourTime = document.querySelector("[data-hour-time]");
 const minuteTime = document.querySelector("[data-minute-time]");
 const secondTime = document.querySelector("[data-second-time]");
 const meridiemTime = document.querySelector("[data-meridiem-time]");
-const alarmHour = document.getElementById("alarm-hour");
-const alarmMinute = document.getElementById("alarm-minute");
-const alarmMeridian = document.getElementById("alarm-meridiem");
+const alarmHour = document.getElementById("select-alarm-hour");
+const alarmMinute = document.getElementById("select-alarm-minute");
+const alarmMeridian = document.getElementById("select-alarm-meridiem");
 const alarmButton = document.getElementById("alarm-button");
 const cancelAlarmButton = document.getElementById("alarm-cancel-button");
 const selectContainer = document.getElementById("select-container");
@@ -151,6 +151,8 @@ alarmButton.addEventListener("click", () => {
 cancelAlarmButton.addEventListener("click", () => {
   //pause the alarm tune
   theme.pause();
+  //stop vibration
+  navigator.vibrate(0);
   //remove shaking animation to digital clock
   digitalClock.classList.remove("animate-up");
   //hiding stop alarm button

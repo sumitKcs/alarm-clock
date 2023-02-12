@@ -1,13 +1,13 @@
 const CACHE_NAME = "alarm-version-v1";
 const urlsToCache = [
-  "/alarm-clock/",
-  "/alarm-clock/index.html",
-  "/alarm-clock/assets/js/app.js",
-  "/alarm-clock/assets/js/alarm.js",
-  "/alarm-clock/assets/js/console.js",
-  "/alarm-clock/assets/css/style.css",
-  "/alarm-clock/assets/audio/theme.mp3",
-  "/alarm-clock/assets/img/favicon.ico",
+  "/",
+  "/index.html",
+  "/assets/js/app.js",
+  "/assets/js/alarm.js",
+  "/assets/js/console.js",
+  "/assets/css/style.css",
+  "/assets/audio/theme.mp3",
+  "/assets/img/favicon.ico",
 ];
 self.addEventListener("install", function (event) {
   event.waitUntil(
