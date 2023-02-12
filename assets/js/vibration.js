@@ -21,4 +21,4 @@ function startPersistentVibrate(duration, interval) {
   }, interval);
 }
 
-export { startVibrate, stopVibrate, startPersistentVibrate, vibrateInterval };
+export { startVibrate, stopVibrate, startPersistentVibrate };

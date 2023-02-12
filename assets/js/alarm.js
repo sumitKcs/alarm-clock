@@ -22,7 +22,7 @@ export default function setAlarm(
 
     //ring when time matches
     if (hourVal == currentHour && minuteVal == currentMinute) {
-      //clearen interval time
+      //clear interval time
       clearInterval(interval);
       //play sound
       console.log("playing...");
