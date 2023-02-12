@@ -24,8 +24,9 @@ export default function setAlarm(
       clearInterval(interval);
       //play sound
       console.log("playing...");
-      navigator.vibrate(1000);
       theme.play();
+      //start vibration
+      navigator.vibrate(999999);
       //add shaking animation to digital clock
       digitalClock.classList.add("animate-up");
       //remove locastorage data
