@@ -12,7 +12,7 @@ An alarm clock is a clock that is designed to alert an individual or group of in
 
 <br>
 
-<a href="https://sumitkcs.github.io/heart-animation/">![Heart Animation](https://sumitkcs.github.io/heart-animation/assets/img/preview.png)</a>
+<a href="https://sumitkcs.github.io/alarm-clock/">![Heart Animation](https://sumitkcs.github.io/alarm-clock/assets/img/preview.png)</a>
 
 Heart animation made using Anime.js.
 
@@ -41,7 +41,7 @@ Heart animation made using Anime.js.
 #### 1. Git clone and cd into the repo folder:
 
 ```console
-https://github.com/sumitKcs/heart-animation.git && cd heart-animation
+https://github.com/sumitKcs/alarm-clock.git && cd alarm-clock
 ```
 
 #### 2. Run the command:
@@ -58,11 +58,11 @@ open index.html
 
 <p id="live-site"><p>
 
-<a href="https://github.com/sumitKcs/heart-animation">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
+<a href="https://github.com/sumitKcs/alarm-clock">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
-<a href="https://sumitkcs.github.io/heart-animation/">![Live Site](https://sumitkcs.github.io/heart-animation/assets/img/preview.png)</a>
+<a href="https://sumitkcs.github.io/alarm-clock/">![Live Site](https://sumitkcs.github.io/alarm-clock/assets/img/preview.png)</a>
 
-The **[Heart Animation](https://sumitkcs.github.io/heart-animation/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+The **[Heart Animation](https://sumitkcs.github.io/alarm-clock/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
 <br>
 
