@@ -23,8 +23,8 @@
   "background_color": "#000000",
   "display": "standalone",
   "lang": "en-US",
-  "id": "http://127.0.0.1:5500/",
-  "start_url": "/",
-  "scope": "/",
+  "id": "https://sumitkcs.github.io/alarm-clock/",
+  "start_url": "/alarm-clock/",
+  "scope": "/alarm-clock/",
   "description": "An alarm clock app."
 }
