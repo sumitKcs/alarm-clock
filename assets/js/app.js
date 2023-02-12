@@ -1,6 +1,7 @@
 import setAlarm from "./alarm.js";
 import { setLocalStorage, deleteLocalStorage } from "./localstorage.js";
 import consoleText from "./console.js";
+import { stopVibrate } from "./vibration.js";
 
 //setClock function will keep executing at every 1ms to move the analog clock hands
 setInterval(setClock, 100);
@@ -152,7 +153,7 @@ cancelAlarmButton.addEventListener("click", () => {
   //pause the alarm tune
   theme.pause();
   //stop vibration
-  navigator.vibrate(0);
+  stopVibrate();
   //remove shaking animation to digital clock
   digitalClock.classList.remove("animate-up");
   //hiding stop alarm button

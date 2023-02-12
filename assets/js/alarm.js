@@ -1,3 +1,5 @@
+import { startPersistentVibrate } from "./vibration.js";
+
 const alarmButton = document.getElementById("alarm-button");
 const digitalClock = document.getElementById("digital-clock");
 
@@ -26,7 +28,7 @@ export default function setAlarm(
       console.log("playing...");
       theme.play();
       //start vibration
-      navigator.vibrate(999999999);
+      startPersistentVibrate(500, 100);
       //add shaking animation to digital clock
       digitalClock.classList.add("animate-up");
       //remove locastorage data
