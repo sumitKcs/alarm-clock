@@ -26,7 +26,7 @@ export default function setAlarm(
       console.log("playing...");
       theme.play();
       //start vibration
-      navigator.vibrate(999999);
+      navigator.vibrate(999999999);
       //add shaking animation to digital clock
       digitalClock.classList.add("animate-up");
       //remove locastorage data
