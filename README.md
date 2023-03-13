@@ -17,7 +17,7 @@ An alarm clock built using HTML, CSS and JavaScript. It uses localstorage to sto
 <br>
 <p id="table-of-contents"><p>
 
-<a href=#table-of-contents>![Table of Contents](https://res.cloudinary.com/dn1e07eul/image/upload/v1659241355/Readme%20Headers/inter-toc_euxbbw.png)</a>
+<a href=#table-of-contents>![Table of Contents](https://res.cloudinary.com/dgqobe64t/image/upload/v1678743090/tableofcontent.png)</a>
 
 - [Installation](#installation)
 - [Live Site](#live-site)
@@ -30,7 +30,7 @@ An alarm clock built using HTML, CSS and JavaScript. It uses localstorage to sto
 
 <p id="installation"><p>
 
-<a href=#installation>![Installation](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389842/Readme%20Headers/inter-installation_j9ixlq.png)</a>
+<a href=#installation>![Installation](https://res.cloudinary.com/dgqobe64t/image/upload/v1678743090/installation.png)</a>
 
 #### 1. Git clone and cd into the repo folder:
 
@@ -52,7 +52,7 @@ open index.html
 
 <p id="live-site"><p>
 
-<a href="https://github.com/sumitKcs/alarm-clock">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
+<a href="https://github.com/sumitKcs/alarm-clock">![Live Site](https://res.cloudinary.com/dgqobe64t/image/upload/v1678743090/livesite.png)</a>
 
 <a href="https://sumitkcs.github.io/alarm-clock/">![Live Site](https://sumitkcs.github.io/alarm-clock/assets/img/preview.png)</a>
 
@@ -64,7 +64,7 @@ The **[Alarm Clock](https://sumitkcs.github.io/alarm-clock/)** is a [progressive
 
 <p id="resources"><p>
 
-<a href=#resources>![Resources](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314247/Readme%20Headers/inter-resources_ncevbw.png)</a>
+<a href=#resources>![Resources](https://res.cloudinary.com/dgqobe64t/image/upload/v1678743090/resources.png)</a>
 
 - #### [Fully functioning Analog Clock](https://www.youtube.com/watch?v=9tC7IBAN9h4&t=1523s) by [Cyber Warriors](https://www.youtube.com/@CyberWarriors)
 
@@ -76,10 +76,10 @@ The **[Alarm Clock](https://sumitkcs.github.io/alarm-clock/)** is a [progressive
 
 <p id="lets-connect"><p>
 
-<a href=#lets-connect>![Let's Connect!](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314257/Readme%20Headers/inter-lets-connect_bv3kcd.png)</a>
+<a href=#lets-connect>![Let's Connect!](https://res.cloudinary.com/dgqobe64t/image/upload/v1678743091/letsconnet.png)</a>
 
 <p><a href="https://twitter.com/risesumit"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=30 width=90 alt="Twitter badge"></a> <a href="https://www.linkedin.com/in/sumitssr/"><img src="https://img.shields.io/badge/linkedin-%230064e7.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=30 width=90 alt="Linkedin badge"></a> <a href="mailto:itssumit258@gmail.com"><img src="https://img.shields.io/badge/gmail-%23fd1745.svg?&style=for-the-badge&logo=gmail&logoColor=white" height=30 width=90 alt="Gmail badge"></a> <a href="https://github.com/sumitKcs"><img src="https://img.shields.io/badge/github-%23ff8e44.svg?&style=for-the-badge&logo=github&logoColor=white" height=30 width=90 alt="Github badge"></a></p>
 
 #
 
-<a href=#header>![Back to Top](https://res.cloudinary.com/dn1e07eul/image/upload/v1659314281/Readme%20Headers/inter-congrats_m4p3ck.png)</a>
+<a href=#header>![Back to Top](https://res.cloudinary.com/dgqobe64t/image/upload/v1678743090/backtotop.png)</a>
